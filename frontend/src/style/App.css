@@ -1,0 +1,19 @@
+button {
+    background-color: #003E72;
+    margin: 30px 0;
+    padding: 7px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005193;
+}
+
+.lineBlock {
+    margin-top: 20px;
+    height: 3px;
+    background-image: linear-gradient(to right, #003e72 80% , #003e72 85%, #F5C518 85%,#F5C518 92%, #003e72 92%, #003e72 96%, #D41C2D 95%);
+}

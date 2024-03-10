@@ -1,0 +1,36 @@
+.home {
+    margin: 70px 18%;
+    min-width: 200px;
+}
+
+.home .titulo {
+    color: rgb(76, 76, 76);
+    font-size: 18px;
+}
+
+section form {
+    margin: 40px 0;
+}
+
+section form label, section form input {
+    margin: 15px 0;
+    white-space: nowrap;
+}
+
+section form input {
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(203, 203, 203) ;
+    width: 25%;
+    min-width: 164.4px;
+}
+
+section form input::placeholder {
+    color: rgb(203, 203, 203);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
